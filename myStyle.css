@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nyomtatashoz{
+    display: none;
+}
+
+hr{
+    border:1px solid gray;
+    margin: 10px 0;
+}
+
+body{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+ul li{
+    text-transform: lowercase;
+}
+
+main{
+    width:68%;
+    float:right;
+    padding: 10px;
+    min-height: 400mm;
+}
+
+main img {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border:4px solid white;
+    display: none;
+    margin: 20px auto;
+}
+
+main h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(88, 88, 88);
+    margin-top: 10px;
+}
+
+main h2{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(88, 88, 88);
+}
+
+main h1, main h2, main h3{
+    text-transform: capitalize;
+}
+
+.datehez {
+    color:rgb(88, 88, 88);
+    float: left;
+    width:70%;
+}
+.date{
+    width:29%;
+    float:right;
+    text-align: right;
+    margin-top: 25px;
+    font-size: 15px;
+    color:rgb(38, 38, 38);
+}
+
+main p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+main ul {
+    list-style-type:disc;
+    list-style-position: inside;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(88, 88, 88);
+}
+
+
+aside{
+    width:32%;
+    min-height: 400mm;
+    float:left;
+    background-color: rgb(198, 198, 198);
+    padding: 10px;
+    color:rgb(88, 88, 88);
+}
+
+aside h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 3vw;
+    text-shadow: 2px 2px 2px black;
+}
+
+aside h2{
+    font-size: 20px;
+}
+
+aside img{
+    width:15vw;
+    height:15vw;
+    border-radius: 50%;
+    border:4px solid white;
+    display: block;
+    margin: 20px auto;
+}
+
+aside ul{
+    color:rgb(88, 88, 88);
+    list-style: none;
+    list-style-position: inside;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+aside ul ul li:first-child{
+    font-weight: bold;
+}
